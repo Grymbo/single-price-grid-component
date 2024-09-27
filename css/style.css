@@ -72,10 +72,7 @@ p {
     box-shadow: -1px 14px 31px 2px rgba(0,81,171,0.75);
     -webkit-box-shadow: -1px 14px 31px 2px rgba(0,81,171,0.75);
     -moz-box-shadow: -1px 14px 31px 2px rgba(0,81,171,0.75);
-
     border-radius: 1rem;
-
-    /*height: calc(100vh - 10rem);*/
 }
 /****************************** grid ***************************************/
 .grid {
@@ -131,11 +128,13 @@ p {
 
 /************************************** Description *************************************/
 .descriptio {
-
+    background-color: var(--blueContent);
+    padding: 4rem 12rem 1rem 3rem;
 }
 .descriptio__title {
-
+    color: var(--whiteColor);
 }
 .description__info {
-
+    margin-top: 5rem;
+    color: var(--greySecond);
 }
