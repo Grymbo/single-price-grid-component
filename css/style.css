@@ -77,10 +77,6 @@ p {
 
     /*height: calc(100vh - 10rem);*/
 }
-/*.container {
-    margin: 2rem 3rem 1rem 3rem;
-}*/
-
 /****************************** grid ***************************************/
 .grid {
     display: grid;
@@ -131,4 +127,15 @@ p {
     letter-spacing: -0.2px;
     border: solid 1px var(--yellowButton);
     border-radius: 1rem;
+}
+
+/************************************** Description *************************************/
+.descriptio {
+
+}
+.descriptio__title {
+
+}
+.description__info {
+
 }
