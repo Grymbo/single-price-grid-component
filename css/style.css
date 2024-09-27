@@ -1,14 +1,60 @@
 /*********************************** Style guide ***************************/
 :root {
     /**************************** Colors ******************/
-    whiteColor: #FFFFFF;
-    blueProduct: #2AB3B1;
-    blueContent: #4BBFBC;
-    yellowButton: #C0DF33;
-    greyFirst: #9AA7BE;
-    greySecond: hsl(204, 43%, 93%);
+    --whiteColor: #FFFFFF;
+    --blueProduct: #2AB3B1;
+    --blueContent: #4BBFBC;
+    --yellowButton: #C0DF33;
+    --greyFirst: #9AA7BE;
+    --greySecond: hsl(204, 43%, 93%);
 
 
     /*************************** Typography ****************/
-    mainFont: "Karla", sans-serif;
+    --mainFont: "Karla", sans-serif;
+}
+
+/******************************** Global ****************************************/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: var(--mainFont);
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.3px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: -0.3px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 1.3px;
+    line-height: 2.1rem;
+    letter-spacing: -0.22px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 1.4px;
+    line-height: 2.6rem;
+    letter-spacing: -0.17px;
+}
+p {
+    font-weight: 400;
+    font-size: 1.4px;
+    line-height: 2rem;
+    letter-spacing: -0.17px;
 }
