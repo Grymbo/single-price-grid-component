@@ -1,0 +1,14 @@
+/*********************************** Style guide ***************************/
+:root {
+    /**************************** Colors ******************/
+    whiteColor: #FFFFFF;
+    blueProduct: #2AB3B1;
+    blueContent: #4BBFBC;
+    yellowButton: #C0DF33;
+    greyFirst: #9AA7BE;
+    greySecond: hsl(204, 43%, 93%);
+
+
+    /*************************** Typography ****************/
+    mainFont: "Karla", sans-serif;
+}
